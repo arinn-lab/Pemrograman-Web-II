@@ -1,0 +1,170 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f0;
+    color: #2d3a2e;
+    padding: 50px 40px;
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #2d3a2e;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(80, 110, 80, 0.08);
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 14px 18px;
+    text-align: center;
+    border-bottom: 1px solid #e8ede4;
+    font-size: 14px;
+}
+th {
+    background-color: #6b8f6b;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background-color: #f0f4ec; }
+.btn-tambah {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 9px 18px;
+    background-color: #6b8f6b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.btn-tambah:hover { background-color: #4e6e4e; }
+.btn-edit {
+    display: inline-block;
+    background-color: #d6e8c8;
+    color: #3a5a2a;
+    padding: 5px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.btn-edit:hover { background-color: #bdd8a8; }
+.btn-hapus {
+    display: inline-block;
+    background-color: #f5d6d1;
+    color: #9e3b2e;
+    padding: 5px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn-hapus:hover { background-color: #e8b8b0; }
+.btn-back {
+    background-color: #6b8f6b;
+    border: none;
+    color: #ffffff;
+    padding: 9px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.btn-back:hover { background-color: #4e6e4e; }
+.form-box {
+    background: #ffffff;
+    padding: 35px 40px;
+    border-radius: 10px;
+    border: 1px solid #dde8d4;
+    box-shadow: 0 2px 12px rgba(80, 110, 80, 0.08);
+}
+.form-group {
+    margin-bottom: 18px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    color: #3a5a3a;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px 13px;
+    border: 1px solid #c8d8c0;
+    border-radius: 6px;
+    background-color: #fafcf8;
+    color: #2d3a2e;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border 0.2s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #6b8f6b;
+    background-color: #ffffff;
+}
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn-submit {
+    background-color: #6b8f6b;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.2s;
+}
+.btn-submit:hover { background-color: #4e6e4e; }
+.btn-kembali {
+    background-color: #e8ede4;
+    border: none;
+    color: #3a5a3a;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+.btn-kembali:hover { background-color: #d0ddc8; }
